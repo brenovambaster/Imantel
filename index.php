@@ -8,56 +8,25 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="cover.css">
-    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="css/cover.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/contato.css">
     <title>Imantel Engenharia</title>
 </head>
 
 <body>
 
     <div>
-        <nav class="menuedit navbar navbar-expand-lg navbar-dark bg-dark " style="font-size:17px;">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="index.php"><img src="imgs/logo.png" alt="logo" width="250px" height="100px"></a>
-
-            <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
-
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto nav-masthead cor-laranja">
-                    <li class="nav-item ">
-                        <a class="nav-link text-light" href="#empresa">Empresa </a>
-                    </li>
-
-                    <li class="nav-item ">
-                        <a class="nav-link text-light  " href="#vantagens">Vantagens </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light " href="#"> Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light  " href="#"> Projetos </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light  " href="#"> Clientes </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light  " href="#"> Contato </a>
-                    </li>
-
-
-                </ul>
-
-            </div>
-        </nav>
+        <?php include('menu.php');  ?>
     </div>
     <section class="bg-dark section1">
         <div class="cover-container w-100 h-100 p-3 mx-auto flex-column">
             <main role="main" class="inner cover" style="color: #FFF">
-                <h1 class="cover-heading">Bem Vindo à Imantel Engenharia!</h1>
-                <p class="lead">Aqui você encontra qualificação em mão de obra. Profissionais capacitados para atender na melhor forma a sua necessidade. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+                <h1 class="cover-heading animated fadeInDown">Bem Vindo à Imantel Engenharia!</h1>
+                <p class="lead animated fadeInUp delay-1s">Aqui você encontra qualificação em mão de obra. Profissionais capacitados para atender na melhor forma a sua necessidade. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
                 <p class="lead">
-                    <a href="#" class="btn btn-md btn-secondary">Learn more</a>
+                    <a href="#" class="btn btn-md btn-secondary animated fadeInUp delay-1s">Learn more</a>
                 </p>
             </main>
 
@@ -132,11 +101,11 @@
 
 
 
-        <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-2">
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-3">
             <div class="col mb-4">
-                <div class="card">
+                <div class="card  wow  bounceInUp">
 
-                    <div class="card-body">
+                    <div class="card-body ">
                         <h5 class="card-title"><strong class="text-danger"> 01.</strong></h5>
                         <h6 class="card-subtitle mb-2  cor-vantagem">Segurança</h6>
                         <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -144,9 +113,9 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card">
+                <div class="card wow lightSpeedIn ">
 
-                    <div class="card-body">
+                    <div class="card-body ">
                         <h5 class="card-title"><strong class="text-primary"> 02.</strong></h5>
                         <h6 class="card-subtitle mb-2  cor-vantagem">Experiência de Mercado</h6>
                         <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -156,7 +125,7 @@
             </div>
 
             <div class="col mb-4">
-                <div class="card">
+                <div class="card wow fadeIn ">
                     <div class="card-body">
                         <h5 class="card-title"><strong class="text-success"> 03.</strong> </h5>
                         <h6 class="card-subtitle mb-2  cor-vantagem">Integridade</h6>
@@ -172,37 +141,138 @@
 
     </section>
 
-    <section class="section-3">
+    <section class="section-3" id="servicos">
         <div class="container mt-5">
             <h1 class="text-center fonte_h1 mt-5">Nossos Serviços</h1>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 justify-content-center container ">
-
-            <div class="card" style="width: 12rem;">
-                <img class="card-img-top" src="imgs/img1.jpg" alt="Imagem de capa do card">
-                <div class="card-body">
-                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-3">
+            <div class="col mb-4 wow fadeIn">
+                <div class="card shadow rounded">
+                    <img class="card-img-top" src="imgs/medidor-resistencia.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong class="text-danger"> 01.</strong>Medição de resistência</h5>
+                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="card" style="width: 12rem;">
-                <img class="card-img-top" src="imgs/img3.jpg" alt="Imagem de capa do card">
-                <div class="card-body">
-                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+            <div class="col mb-4 wow fadeIn">
+                <div class="card shadow rounded">
+                    <img class="card-img-top" src="imgs/iluminacao.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong class="text-primary"> 02.</strong> Iluminação decorativa</h5>
+                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    </div>
                 </div>
             </div>
 
-            <div class="card" style="width: 12rem;">
-                <img class="card-img-top" src="imgs/energiasolar.jpg" alt="Imagem de capa do card">
-                <div class="card-body">
-                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+            <div class="col mb-4">
+                <div class="card shadow rounded wow fadeIn">
+                    <img class="card-img-top" src="imgs/img-spda.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong class="text-success"> 03.</strong>SPDA </h5>
+                        <h6 class="card-subtitle mb-2  text-success">O que é?</h6>
+                        <p class="card-text text-preto">SISTEMA DE PROTEÇÃO CONTRA DESCARGAS ATMOSFÉRICAS. Projetamos, dimensionamos os materiais
+                            necessários para implantação de um novo SPDA e
+                            realizamos a instalação garantindo o atendimento
+                            das especificações exigidas pela NBR 5419.
+                        </p>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-3">
+            <div class="col mb-4 wow fadeInLeft">
+                <div class="card shadow rounded">
+                    <img class="card-img-top" src="imgs/img3.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong class="text-danger"> 04.</strong> Automação</h5>
+
+                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card shadow rounded">
+                    <img class="card-img-top" src="imgs/img1.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong class="text-primary"> 05.</strong>Banco de capacitores</h5>
+                        <h6 class="card-subtitle mb-2  cor-vantagem">Para correção automática de fator de potência</h6>
+                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card shadow rounded wow fadeInRight ">
+                    <img class="card-img-top" src="imgs/img-solar.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong class="text-success"> 06.</strong>Sistemas fotovoltaico </h5>
+                        <h6 class="card-subtitle mb-2  cor-vantagem"></h6>
+                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <a class="btn btn-success rouded" href="#"> E muuuito mais...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center ">
 
 
         </div>
     </section>
 
+
+
+
+    <section class="contato1" id="contato">
+        <div class="container">
+
+            <form action="" method="GET" class="offset-md-3 wow slideInLeft ">
+                <h2 class=" text-success"> Fale conosco...</h2>
+                <div class="form-group">
+                    <label for="InputNome">Seu nome</label>
+                    <input type="name" class="form-control shadow rounded col-md-7" id="InputNome" aria-describedby="nameHelp">
+
+                </div>
+                <div class="form-group">
+                    <label for="InputEmail">Email</label>
+                    <input type="email" class="form-control shadow rounded col-md-7" aria-describedby="emailHelp" id="InputEmail">
+                </div>
+                <div class="form-group">
+                    <label for="InputFone">Telefone</label>
+                    <input type="number" class="form-control shadow rounded col-md-7" id="InputFone">
+
+                </div>
+                <div class="form-group">
+                    <label for="InputCity">Cidade</label>
+                    <input type="number" class="form-control shadow rounded col-md-7" id="InputCity">
+
+                </div>
+                <div class="form-group ">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea class="form-control col-md-6 shadow rounded" id="mensagem" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="rodape">
+        <?php include('rodape.php'); ?>
+    </section>
+
+    <script>
+        src = "js/jquery.js"
+    </script>
+    <script src="js/wow.min.js"> </script>
+    <script>
+        new WOW().init();
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
