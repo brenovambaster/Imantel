@@ -31,9 +31,19 @@ a:hover {
 }
 
 .vantages {
+    background-image: url(imgs/book.jpg);
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: auto;
     margin-top: 20px;
-    background-color: rgba(58, 97, 168, 0.719);
     color: #fff;
+}
+
+.margem-bottom {
+    min-height: 650px;
 }
 
 .imagem {

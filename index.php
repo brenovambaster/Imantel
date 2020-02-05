@@ -20,7 +20,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="index.php"><img src="imgs/logo3.png" alt="logo" width="250px" height="100px"></a>
+            <a class="navbar-brand" href="index.php"><img src="imgs/logo.png" alt="logo" width="250px" height="100px"></a>
 
             <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
 
@@ -47,15 +47,12 @@
 
 
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+
             </div>
         </nav>
     </div>
     <section class="bg-dark section1">
-        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <div class="cover-container w-100 h-100 p-3 mx-auto flex-column">
             <main role="main" class="inner cover" style="color: #FFF">
                 <h1 class="cover-heading">Bem Vindo à Imantel Engenharia!</h1>
                 <p class="lead">Aqui você encontra qualificação em mão de obra. Profissionais capacitados para atender na melhor forma a sua necessidade. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
@@ -121,87 +118,87 @@
         </div>
 
     </section>
-    <section class="vantages" id="vantagens">
+    <section class="vantages margem-bottom" id="vantagens">
 
-        <div class="row">
-            <div class="col-md-7 text-center offset-md-3">
-                <h1 class="cor-vantagem fonte_h1 mt-5">Vantagens Imantel</h1>
-                <p class=" lead text-preto text-justify">Comportamento e interação nas atividades da empresa fundamentada em Segurança, Experiência,
-                    Integridade e Qualidade, maximizando os resultados com investimento em material humano.
-                    É movida pelo desafio constante de apresentar soluções completas para os empreendimentos.
+        <div class="row container">
+            <div class="col-md-9 text-center offset-md-3">
+                <h1 class=" mt-5 bg-">Vantagens Imantel</h1>
+                <p class=" lead text-light text-justify"><strong> Comportamento e interação nas atividades da empresa fundamentada em Segurança, Experiência,
+                        Integridade e Qualidade, maximizando os resultados com investimento em material humano.
+                        É movida pelo desafio constante de apresentar soluções completas para os empreendimentos. </strong>
                 </p>
             </div>
         </div>
-        <div class="container marketing">
 
-            <div class="row featurette">
 
-                <div class="col-md-7">
-                    <h2 class="featurette-heading cor-vantagem"> <strong class="text-danger"> 01.</strong> <br> Segurança</h2>
-                    <p class="lead text-preto ">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-2">
+            <div class="col mb-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <h5 class="card-title"><strong class="text-danger"> 01.</strong></h5>
+                        <h6 class="card-subtitle mb-2  cor-vantagem">Segurança</h6>
+                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
                 </div>
-                <div class="col-md-5">
-                    <img src="" alt="">
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <h5 class="card-title"><strong class="text-primary"> 02.</strong></h5>
+                        <h6 class="card-subtitle mb-2  cor-vantagem">Experiência de Mercado</h6>
+                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                    </div>
                 </div>
             </div>
 
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-
-                <div class="col-md-7 order-md-1">
-                    <h2 class="featurette-heading cor-vantagem"><strong class="text-primary"> 02.</strong> <br> Experiência de Mercado</h2>
-                    <p class="lead text-preto ">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img src="" alt="">
+            <div class="col mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong class="text-success"> 03.</strong> </h5>
+                        <h6 class="card-subtitle mb-2  cor-vantagem">Integridade</h6>
+                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
                 </div>
             </div>
+        </div>
 
-            <hr class="featurette-divider">
 
-            <div class="row featurette">
 
-                <div class="col-md-7 ">
-                    <h2 class="featurette-heading cor-vantagem"><strong class="text-success"> 03.</strong> <br> Integridade</h2>
-                    <p class="lead text-preto ">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img src="" alt="">
-                </div>
-            </div>
 
-            <hr class="featurette-divider">
 
-            <!-- /END THE FEATURETTES -->
-
-        </div><!-- /.container -->
     </section>
 
     <section class="section-3">
-        <div class="container marketing mt-5">
-            <h1 class="text-center fonte_h1 mt-5">Nossos clientes</h1>
-            <!-- Three columns of text below the carousel -->
-            <div class="row mb-5">
-                <div class="col-lg-4">
-                    <img src="imgs/jack.jpg" alt="" width="160" height="160" background="#777" color="#777" class="rounded-circle">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img src="imgs/rodrigo.jpg" alt="" width="160" height="160" background="#777" color="#777" class="rounded-circle">
-                    <h2>Heading</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img src="imgs/anonimo.jpg" alt="" width="160" height="160" background="#777" color="#777" class="rounded-circle">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
+        <div class="container mt-5">
+            <h1 class="text-center fonte_h1 mt-5">Nossos Serviços</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center container ">
+
+            <div class="card" style="width: 12rem;">
+                <img class="card-img-top" src="imgs/img1.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 12rem;">
+                <img class="card-img-top" src="imgs/img3.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 12rem;">
+                <img class="card-img-top" src="imgs/energiasolar.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                </div>
+            </div>
+
 
         </div>
     </section>
