@@ -1,0 +1,16 @@
+.section-projeto {
+    background-image: url(../imgs/14088.jpg);
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: auto;
+    color: #fff;
+    min-height: 500px;
+}
+
+.contraste {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
