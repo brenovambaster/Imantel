@@ -89,8 +89,10 @@
     </section>
     <section class="vantages margem-bottom" id="vantagens">
 
+<div class="container">
+
         <div class="row container">
-            <div class="col-md-9 text-center offset-md-3">
+            <div class="col-md-9 text-center  ">
                 <h1 class=" mt-5 bg-">Vantagens Imantel</h1>
                 <p class=" lead text-light text-justify"><strong> Comportamento e interação nas atividades da empresa fundamentada em Segurança, Experiência,
                         Integridade e Qualidade, maximizando os resultados com investimento em material humano.
@@ -137,11 +139,13 @@
 
 
 
-
+</div>
 
     </section>
 
     <section class="section-3" id="servicos">
+    <div class="container">
+
         <div class="container mt-5">
             <h1 class="text-center fonte_h1 mt-5">Nossos Serviços</h1>
         </div>
@@ -223,6 +227,7 @@
 
 
         </div>
+    </div>
     </section>
 
 
