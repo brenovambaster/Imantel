@@ -89,6 +89,7 @@
     </section>
     <section class="vantages margem-bottom" id="vantagens">
 
+<<<<<<< HEAD
         <div class="container">
 
             <div class="row offset-md-2 ">
@@ -99,6 +100,17 @@
                             É movida pelo desafio constante de apresentar soluções completas para os empreendimentos. </strong>
                     </p>
                 </div>
+=======
+<div class="container">
+
+        <div class="row container">
+            <div class="col-md-9 text-center  ">
+                <h1 class=" mt-5 bg-">Vantagens Imantel</h1>
+                <p class=" lead text-light text-justify"><strong> Comportamento e interação nas atividades da empresa fundamentada em Segurança, Experiência,
+                        Integridade e Qualidade, maximizando os resultados com investimento em material humano.
+                        É movida pelo desafio constante de apresentar soluções completas para os empreendimentos. </strong>
+                </p>
+>>>>>>> 45fd16b49769e6a7565f6efe145188f0bcb504fe
             </div>
 
 
@@ -138,12 +150,17 @@
             </div>
 
 
+<<<<<<< HEAD
 
         </div>
+=======
+</div>
+>>>>>>> 45fd16b49769e6a7565f6efe145188f0bcb504fe
 
     </section>
 
     <section class="section-3" id="servicos">
+<<<<<<< HEAD
         <div class="container">
 
             <div class="container mt-5">
@@ -157,6 +174,20 @@
                             <h5 class="card-title"><strong class="text-danger"> 01.</strong>Medição de resistência</h5>
                             <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                         </div>
+=======
+    <div class="container">
+
+        <div class="container mt-5">
+            <h1 class="text-center fonte_h1 mt-5">Nossos Serviços</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-3">
+            <div class="col mb-4 wow fadeIn">
+                <div class="card shadow rounded">
+                    <img class="card-img-top" src="imgs/medidor-resistencia.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong class="text-danger"> 01.</strong>Medição de resistência</h5>
+                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+>>>>>>> 45fd16b49769e6a7565f6efe145188f0bcb504fe
                     </div>
                 </div>
 
@@ -228,6 +259,7 @@
 
             </div>
         </div>
+    </div>
     </section>
 
 
