@@ -89,139 +89,144 @@
     </section>
     <section class="vantages margem-bottom" id="vantagens">
 
-        <div class="row container">
-            <div class="col-md-9 text-center offset-md-3">
-                <h1 class=" mt-5 bg-">Vantagens Imantel</h1>
-                <p class=" lead text-light text-justify"><strong> Comportamento e interação nas atividades da empresa fundamentada em Segurança, Experiência,
-                        Integridade e Qualidade, maximizando os resultados com investimento em material humano.
-                        É movida pelo desafio constante de apresentar soluções completas para os empreendimentos. </strong>
-                </p>
+        <div class="container">
+
+            <div class="row offset-md-2 ">
+                <div class="col-md-9 text-center  ">
+                    <h1 class=" mt-5 bg-">Vantagens Imantel</h1>
+                    <p class=" lead text-light text-justify"><strong> Comportamento e interação nas atividades da empresa fundamentada em Segurança, Experiência,
+                            Integridade e Qualidade, maximizando os resultados com investimento em material humano.
+                            É movida pelo desafio constante de apresentar soluções completas para os empreendimentos. </strong>
+                    </p>
+                </div>
             </div>
+
+
+
+            <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-3">
+                <div class="col mb-4">
+                    <div class="card  wow  bounceInUp">
+
+                        <div class="card-body ">
+                            <h5 class="card-title"><strong class="text-danger"> 01.</strong></h5>
+                            <h6 class="card-subtitle mb-2  cor-vantagem">Segurança</h6>
+                            <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card wow lightSpeedIn ">
+
+                        <div class="card-body ">
+                            <h5 class="card-title"><strong class="text-primary"> 02.</strong></h5>
+                            <h6 class="card-subtitle mb-2  cor-vantagem">Experiência de Mercado</h6>
+                            <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card wow fadeIn ">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong class="text-success"> 03.</strong> </h5>
+                            <h6 class="card-subtitle mb-2  cor-vantagem">Integridade</h6>
+                            <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
-
-
-
-        <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-3">
-            <div class="col mb-4">
-                <div class="card  wow  bounceInUp">
-
-                    <div class="card-body ">
-                        <h5 class="card-title"><strong class="text-danger"> 01.</strong></h5>
-                        <h6 class="card-subtitle mb-2  cor-vantagem">Segurança</h6>
-                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card wow lightSpeedIn ">
-
-                    <div class="card-body ">
-                        <h5 class="card-title"><strong class="text-primary"> 02.</strong></h5>
-                        <h6 class="card-subtitle mb-2  cor-vantagem">Experiência de Mercado</h6>
-                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col mb-4">
-                <div class="card wow fadeIn ">
-                    <div class="card-body">
-                        <h5 class="card-title"><strong class="text-success"> 03.</strong> </h5>
-                        <h6 class="card-subtitle mb-2  cor-vantagem">Integridade</h6>
-                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
 
     </section>
 
     <section class="section-3" id="servicos">
-        <div class="container mt-5">
-            <h1 class="text-center fonte_h1 mt-5">Nossos Serviços</h1>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-3">
-            <div class="col mb-4 wow fadeIn">
-                <div class="card shadow rounded">
-                    <img class="card-img-top" src="imgs/medidor-resistencia.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title"><strong class="text-danger"> 01.</strong>Medição de resistência</h5>
-                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="container">
+
+            <div class="container mt-5">
+                <h1 class="text-center fonte_h1 mt-5">Nossos Serviços</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-3">
+                <div class="col mb-4 wow fadeIn">
+                    <div class="card shadow rounded">
+                        <img class="card-img-top" src="imgs/medidor-resistencia.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong class="text-danger"> 01.</strong>Medição de resistência</h5>
+                            <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4 wow fadeIn">
+                    <div class="card shadow rounded">
+                        <img class="card-img-top" src="imgs/iluminacao.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong class="text-primary"> 02.</strong> Iluminação decorativa</h5>
+                            <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card shadow rounded wow fadeIn">
+                        <img class="card-img-top" src="imgs/img-spda.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong class="text-success"> 03.</strong>SPDA </h5>
+                            <h6 class="card-subtitle mb-2  text-success">O que é?</h6>
+                            <p class="card-text text-preto">SISTEMA DE PROTEÇÃO CONTRA DESCARGAS ATMOSFÉRICAS. Projetamos, dimensionamos os materiais
+                                necessários para implantação de um novo SPDA e
+                                realizamos a instalação garantindo o atendimento
+                                das especificações exigidas pela NBR 5419.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-3">
+                <div class="col mb-4 wow fadeInLeft">
+                    <div class="card shadow rounded">
+                        <img class="card-img-top" src="imgs/img3.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong class="text-danger"> 04.</strong> Automação</h5>
 
-            <div class="col mb-4 wow fadeIn">
-                <div class="card shadow rounded">
-                    <img class="card-img-top" src="imgs/iluminacao.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title"><strong class="text-primary"> 02.</strong> Iluminação decorativa</h5>
-                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                            <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card shadow rounded">
+                        <img class="card-img-top" src="imgs/img1.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong class="text-primary"> 05.</strong>Banco de capacitores</h5>
+                            <h6 class="card-subtitle mb-2  cor-vantagem">Para correção automática de fator de potência</h6>
+                            <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card shadow rounded wow fadeInRight ">
+                        <img class="card-img-top" src="imgs/img-solar.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong class="text-success"> 06.</strong>Sistemas fotovoltaico </h5>
+                            <h6 class="card-subtitle mb-2  cor-vantagem"></h6>
+                            <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        </div>
+                        <div class="col-md-12">
+                            <a class="btn btn-success rouded" href="#"> E muuuito mais...</a>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="row justify-content-md-center ">
 
-            <div class="col mb-4">
-                <div class="card shadow rounded wow fadeIn">
-                    <img class="card-img-top" src="imgs/img-spda.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title"><strong class="text-success"> 03.</strong>SPDA </h5>
-                        <h6 class="card-subtitle mb-2  text-success">O que é?</h6>
-                        <p class="card-text text-preto">SISTEMA DE PROTEÇÃO CONTRA DESCARGAS ATMOSFÉRICAS. Projetamos, dimensionamos os materiais
-                            necessários para implantação de um novo SPDA e
-                            realizamos a instalação garantindo o atendimento
-                            das especificações exigidas pela NBR 5419.
-                        </p>
-                    </div>
-                </div>
+
             </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-3">
-            <div class="col mb-4 wow fadeInLeft">
-                <div class="card shadow rounded">
-                    <img class="card-img-top" src="imgs/img3.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title"><strong class="text-danger"> 04.</strong> Automação</h5>
-
-                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card shadow rounded">
-                    <img class="card-img-top" src="imgs/img1.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title"><strong class="text-primary"> 05.</strong>Banco de capacitores</h5>
-                        <h6 class="card-subtitle mb-2  cor-vantagem">Para correção automática de fator de potência</h6>
-                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col mb-4">
-                <div class="card shadow rounded wow fadeInRight ">
-                    <img class="card-img-top" src="imgs/img-solar.jpg" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h5 class="card-title"><strong class="text-success"> 06.</strong>Sistemas fotovoltaico </h5>
-                        <h6 class="card-subtitle mb-2  cor-vantagem"></h6>
-                        <p class="card-text text-preto">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                    </div>
-                    <div class="col-md-12">
-                        <a class="btn btn-success rouded" href="#"> E muuuito mais...</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-md-center ">
-
-
         </div>
     </section>
 
@@ -234,27 +239,27 @@
             <form action="" method="GET" class="offset-md-3 wow slideInLeft ">
                 <h2 class=" text-success"> Fale conosco...</h2>
                 <div class="form-group">
-                    <label for="InputNome">Seu nome</label>
-                    <input type="name" class="form-control shadow rounded col-md-7" id="InputNome" aria-describedby="nameHelp">
+                    <label for="InputNome">Seu nome:</label>
+                    <input type="name" required class="form-control shadow rounded col-md-7" id="InputNome" aria-describedby="nameHelp">
 
                 </div>
                 <div class="form-group">
-                    <label for="InputEmail">Email</label>
-                    <input type="email" class="form-control shadow rounded col-md-7" aria-describedby="emailHelp" id="InputEmail">
+                    <label for="InputEmail">E-mail:</label>
+                    <input type="email" required class="form-control shadow rounded col-md-7" aria-describedby="emailHelp" id="InputEmail">
                 </div>
                 <div class="form-group">
-                    <label for="InputFone">Telefone</label>
-                    <input type="number" class="form-control shadow rounded col-md-7" id="InputFone">
+                    <label for="InputFone">Telefone:</label>
+                    <input type="phone" required class="form-control shadow rounded col-md-7" id="InputFone">
 
                 </div>
                 <div class="form-group">
-                    <label for="InputCity">Cidade</label>
-                    <input type="number" class="form-control shadow rounded col-md-7" id="InputCity">
+                    <label for="InputCity">Cidade:</label>
+                    <input type="city" class="form-control shadow rounded col-md-7" id="InputCity">
 
                 </div>
                 <div class="form-group ">
-                    <label for="mensagem">Mensagem</label>
-                    <textarea class="form-control col-md-6 shadow rounded" id="mensagem" rows="3"></textarea>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea class="form-control col-md-6 shadow rounded" required id="mensagem" rows="3"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
@@ -262,7 +267,7 @@
     </section>
 
 
-    <section class="rodape">
+    <section class="rodape wow fadeIn">
         <?php include('rodape.php'); ?>
     </section>
 
