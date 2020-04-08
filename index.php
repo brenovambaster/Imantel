@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/cover.css">
@@ -20,7 +21,7 @@
     <div>
         <?php include('menu.php');  ?>
     </div>
-    <section class="bg-dark section1">
+    <section class="bg-dark section1" style="margin-top: 115px">
         <div class="cover-container w-100 h-100 p-3 mx-auto flex-column">
             <main role="main" class="inner cover" style="color: #FFF">
                 <h1 class="cover-heading animated fadeInDown">Bem Vindo à Imantel Engenharia!</h1>
@@ -233,11 +234,11 @@
 
 
 
-    <section class="contato1" id="contato">
+    <section class="contato1 mt-5" id="contato">
         <div class="container">
-
+        <h2 class=" text-success text-center tit"> Fale conosco...</h2>
             <form action="" method="GET" class="offset-md-3 wow slideInLeft ">
-                <h2 class=" text-success"> Fale conosco...</h2>
+                
                 <div class="form-group">
                     <label for="InputNome">Seu nome:</label>
                     <input type="name" required class="form-control shadow rounded col-md-7" id="InputNome" aria-describedby="nameHelp">
@@ -259,14 +260,12 @@
                 </div>
                 <div class="form-group ">
                     <label for="mensagem">Mensagem:</label>
-                    <textarea class="form-control col-md-6 shadow rounded" required id="mensagem" rows="3"></textarea>
+                    <textarea class="form-control col-md-7 shadow rounded" required id="mensagem" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary mb-3">Enviar</button>
             </form>
         </div>
     </section>
-
-
     <section class="rodape wow fadeIn">
         <?php include('rodape.php'); ?>
     </section>

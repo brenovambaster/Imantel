@@ -23,7 +23,7 @@
         <?php include('menu.php');  ?>
     </div>
 
-    <main role="main">
+    <main role="main" class="mt-5">
 
         <section class="jumbotron text-center section-projeto">
             <div class="container">
