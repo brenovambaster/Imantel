@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/contato.css">
-    <title>Imantel Engenharia</title>
+    <link rel="shortcut icon" href="imgs/icons8-engenharia-96.png" type="image/x-icon" height="100%" />
+    <!--   <a href="https://icons8.com/icon/12109/engenharia">Engenharia icon by Icons8</a> icon-->
+    <title>Imantel Energia</title>
 </head>
 
 <body>
@@ -145,12 +147,12 @@
     </section>
 
     <section class="section-3" id="servicos">
-        <div class="container">
+        <div class="container mt-4">
 
             <div class="container mt-5">
-                <h1 class="text-center fonte_h1 mt-5">Nossos Serviços</h1>
+                <h1 class="text-center fonte_h1 mt-5 mb-5">Nossos Serviços</h1>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-3">
+            <div class="row row-cols-1 row-cols-md-3 justify-content-center container ml-3" style="margin-top:10%;">
                 <div class="col mb-4 wow fadeIn">
                     <div class="card shadow rounded">
                         <img class="card-img-top" src="imgs/medidor-resistencia.jpg" alt="Imagem de capa do card">
@@ -235,10 +237,10 @@
 
 
     <section class="contato1 mt-5" id="contato">
-        <div class="container">
-        <h2 class=" text-success text-center tit"> Fale conosco...</h2>
+        <div class="container" style="margin-top:10%;">
+            <h2 class=" text-success text-center tit"> Fale conosco...</h2>
             <form action="" method="GET" class="offset-md-3 wow slideInLeft ">
-                
+
                 <div class="form-group">
                     <label for="InputNome">Seu nome:</label>
                     <input type="name" required class="form-control shadow rounded col-md-7" id="InputNome" aria-describedby="nameHelp">

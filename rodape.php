@@ -23,7 +23,7 @@
                     </a>
 
                 </span>
-                <span class="ml-2 text-light"> <br> Copyright ©2020 by Imantel soluções em Engenharia.</span>
+                <span class="ml-2 text-light"> <br> Copyright ©2020 by Imantel soluções em Engenharia e Energia.</span>
             </div>
             <div class="col-sm-8">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11747.503905195133!2d-44.229213!3d-21.1133063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x444b287bd459d76a!2sImantel%20Engenharia!5e1!3m2!1spt-BR!2sbr!4v1580942107244!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
