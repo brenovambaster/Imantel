@@ -34,7 +34,7 @@ a:hover {
 
 @media ( min-height:500px) {
     #empresa {
-        height: 600px;
+        min-height: 600px;
     }
 }
 
