@@ -2,7 +2,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
     </button>
-    <a class="navbar-brand" href="index.php"><img src="imgs/logo (2).png" alt="logo" width="250px" height="80px"></a>
+    <a class="navbar-brand" href="index.php"><img src="imgs/logo_sem_fundo.png" alt="logo" width="250px" height="80px"></a>
 
     <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
 
