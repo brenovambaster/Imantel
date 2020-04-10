@@ -30,6 +30,14 @@ a:hover {
     margin-top: 5%;
 }
 
+#empresa {}
+
+@media ( min-height:500px) {
+    #empresa {
+        height: 600px;
+    }
+}
+
 .vantages {
     background-image: url(../imgs/book.jpg);
     background-size: 100%;

@@ -26,7 +26,7 @@
     <main role="main" class="mt-5">
 
         <section class="jumbotron text-center section-projeto">
-            <div class="container">
+            <div class="container wow fadeInDown ">
                 <h1 class="contraste"><strong> Nossos projetos </strong></h1>
                 <p class="lead contraste">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
 
